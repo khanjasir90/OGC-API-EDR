@@ -1,8 +1,8 @@
 class url:
     def __init__(self):
         self.base_url = "https://ogcie.iblsoft.com/edr/"
-        self.collections = "conformance"
-        self.conformance = "collections"
+        self.collections = "collections"
+        self.conformance = "conformance"
 
     def landing_urls(self) -> dict:
         return {"landing_url": self.base_url}
